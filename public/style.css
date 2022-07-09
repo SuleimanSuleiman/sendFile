@@ -1,0 +1,42 @@
+form{
+    max-width: 400px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #333;
+}
+form div{
+    margin: 20px;
+    font-size: 20px;
+}
+form div label{
+    font-size: 25px;
+}
+form div.b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form div input[type='password']{
+    padding: 5px 10px;
+    width: 60%;
+    color: #333;
+    font-size: 22px;
+}
+form button{
+    background-color: rgb(39, 98, 248);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 13px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+}
